@@ -22,7 +22,6 @@ h1, h2 {
 label {
     display: block;
     margin: 10px 0;
-    cursor: pointer;
 }
 small {
     display: block;
@@ -33,6 +32,20 @@ small {
 input[type="checkbox"] {
     transform: scale(1.2);
     margin-right: 8px;
+}
+details {
+    margin: 10px 0;
+    padding: 10px;
+    background: #020617;
+    border-radius: 10px;
+}
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #facc15;
+}
+ul {
+    margin-top: 8px;
 }
 </style>
 </head>
@@ -47,7 +60,7 @@ input[type="checkbox"] {
 <small>Quando: assim que o despertador tocar</small>
 
 <label><input type="checkbox">07:02 – Ler oração da manhã</label>
-<small>Quando: logo após acordar, ainda em silêncio</small>
+<small>Quando: logo após acordar</small>
 
 <label><input type="checkbox">07:05 – Beber água</label>
 <small>Quando: depois da oração</small>
@@ -58,7 +71,16 @@ input[type="checkbox"] {
 <label><input type="checkbox">07:40 – Aquecimento</label>
 <small>Quando: antes de tocar na bola</small>
 
-<label><input type="checkbox">07:45 – Treino de drible</label>
+<details>
+  <summary>▶ 07:45 – Treino de drible</summary>
+  <ul>
+    <li>Condução curta (direita/esquerda) – 3×30s</li>
+    <li>Zigue-zague entre objetos – 4 repetições</li>
+    <li>Finta parada – 10 cada lado</li>
+    <li>Mudança rápida de direção – 3×1 min</li>
+    <li>Controle próximo do pé – 2×1 min</li>
+  </ul>
+</details>
 <small>Quando: após aquecer bem</small>
 
 <label><input type="checkbox">08:05 – Arranques / explosão</label>
@@ -72,13 +94,13 @@ input[type="checkbox"] {
 <h2>🍽️ Durante o dia</h2>
 
 <label><input type="checkbox">12:30 – Almoço</label>
-<small>Quando: horário fixo, sem pular refeição</small>
+<small>Quando: horário fixo</small>
 
 <label><input type="checkbox">15:00 – Rezar o terço</label>
-<small>Quando: pausa da tarde, local tranquilo</small>
+<small>Quando: pausa da tarde</small>
 
 <label><input type="checkbox">Durante o dia – Beber água</label>
-<small>Quando: várias vezes até a noite</small>
+<small>Quando: várias vezes</small>
 
 <label><input type="checkbox">16:30 – Lanche da tarde</label>
 <small>Quando: antes do treino da noite</small>
@@ -88,9 +110,18 @@ input[type="checkbox"] {
 <h2>🌙 Noite</h2>
 
 <label><input type="checkbox">17:55 – Aquecimento leve</label>
-<small>Quando: antes do treino noturno</small>
+<small>Quando: antes do treino</small>
 
-<label><input type="checkbox">18:00 – Treino de chute</label>
+<details>
+  <summary>▶ 18:00 – Treino de chute forte</summary>
+  <ul>
+    <li>Chute parado – 15 repetições</li>
+    <li>Chute com corrida curta – 15 repetições</li>
+    <li>Chute de primeira – 10 repetições</li>
+    <li>Chute com alvo – 10 repetições</li>
+    <li>Finalização após domínio – 10 repetições</li>
+  </ul>
+</details>
 <small>Quando: foco em força e técnica</small>
 
 <label><input type="checkbox">18:20 – Fortalecimento</label>
@@ -106,13 +137,13 @@ input[type="checkbox"] {
 <small>Quando: preparar o corpo para dormir</small>
 
 <label><input type="checkbox">21:20 – Ler um livro</label>
-<small>Quando: leitura leve para relaxar a mente</small>
+<small>Quando: leitura leve</small>
 
 <label><input type="checkbox">21:45 – Ler oração da noite</label>
 <small>Quando: antes de deitar</small>
 
 <label><input type="checkbox">22:00 – Dormir</label>
-<small>Quando: todos os dias, sem exceção</small>
+<small>Quando: todos os dias</small>
 </div>
 
 <div class="section">
